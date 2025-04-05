@@ -166,8 +166,3 @@ This manual guides you through each phase, explains mechanics, and provides tips
 - **Slow Performance?**: Use a modern browser.
 
 ---
-
-## Context: Amazon’s AI Recruitment Tool
-This simulation is inspired by Amazon’s 2014-2018 AI recruitment tool, which was scrapped due to gender bias. Your goal is to apply the PDCA framework (Plan-Do-Check-Act) to rebuild it ethically, ensuring fairness, transparency, and compliance with laws like GDPR.
-
-Happy sprinting!
