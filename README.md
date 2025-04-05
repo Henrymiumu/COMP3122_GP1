@@ -1,168 +1,173 @@
-# Scrum Sprint Simulation User Manual
-
 ## Introduction
 
-Welcome to the **Scrum Sprint Simulation: Ethical AI Development**! In this interactive game, you’ll take on the role of a Scrum Master leading a virtual team to improve Amazon’s AI recruitment tool over three sprints. Your mission is to deliver maximum value (story points) by building an ethical, unbiased AI system while maintaining quality and team morale, all within a $50,000 budget. You’ll hire a team, select tasks, assign work, tackle ethical challenges, and refine your approach using the PDCA framework.
+Welcome to the **Scrum Sprint Simulation**! This interactive game lets you step into the role of a Scrum Master, managing a virtual software development team through three sprints. Your goal is to deliver maximum value (measured in *story points*) while maintaining high quality and team morale, all within a **$50,000 budget**. You’ll hire a team, select tasks, assign work, respond to challenges, and reflect on your performance to improve.
 
-This manual guides you through each phase, explains mechanics, and provides tips for success. Let’s dive in!
-
----
+This manual will guide you through each phase of the game, explain key mechanics, and offer tips for success. Let’s get started!
 
 ## Getting Started
 
 - **Open the Game**: Load the HTML file in a modern web browser (e.g., Chrome, Firefox).
-- **Dark Mode**: Automatically adjusts to your system’s preference.
-- **Objective**: Maximize story points across three sprints by developing an ethical AI tool, balancing quality, morale, and budget.
-
----
+- **Dark Mode**: The game automatically adjusts to your system’s dark mode preference.
+- **Objective**: Complete as many story points as possible across three sprints while balancing quality and team morale.
 
 ## Game Phases
 
 ### 1. Introduction (Intro)
-- **What You See**: Welcome screen with objectives: Enhance AI safety at Amazon, address bias, and meet ethical standards.
-- **What to Do**: Click "Start Your Journey as Scrum Master" to begin.
-- **Purpose**: Learn the game’s goals and rules.
+
+- **What You See**: A welcome screen with game objectives and instructions.
+- **What to Do**: Click **"Start Your Journey as Scrum Master"** to begin.
+- **Purpose**: Understand the game’s rules and goals.
 
 ### 2. Team Selection
-- **Overview**: Hire a team within a $50,000 budget to build an ethical AI system.
+
+- **Overview**: Build your team by hiring employees within a $50,000 budget.
 - **Steps**:
-  - Browse employees (e.g., AI Engineer, Data Analyst, Ethics Specialist):
-    - **Cost**: Budget deduction (e.g., Junior: $10k, Senior: $25k).
-    - **Capacity**: Story points per sprint (e.g., Junior: 5, Senior: 12).
-    - **Efficiency**: Work speed (e.g., Senior: 1.2x).
-    - **Skills**: AI development, data privacy, bias mitigation, ethics.
-  - Click "Hire" to add to your team; budget updates instantly.
-  - View team in "Your Team" section; click "X" to fire and recover costs.
-  - Click "Reset Team" to start over.
-  - Click "Continue to Backlog" (requires at least one hire).
+  1. Browse available employees (e.g., Frontend Engineer, Designer) with Junior, Mid-level, and Senior options.
+  2. Check details:
+     - **Cost**: How much they deduct from your budget.
+     - **Capacity**: Story points they can handle per sprint.
+     - **Efficiency**: How effectively they work (e.g., 1.2x for Seniors).
+     - **Skills**: Frontend, backend, full stack, or design.
+  3. Click **"Hire"** to add an employee to your team. The budget updates instantly.
+  4. View your team in the "Your Team" section. Click the red **"X"** to fire an employee and recover their cost.
+  5. Click **"Reset Team"** to start over if needed.
+  6. When ready (at least one employee hired), click **"Continue to Backlog"**.
 - **Tips**:
-  - Balance skills (e.g., AI + ethics expertise).
-  - Seniors are efficient but costly; Juniors save money but produce less.
+  - Balance skills (e.g., hire frontend and backend developers for versatility).
+  - Seniors are expensive but efficient; Juniors are cost-effective but less productive.
 
 ### 3. Backlog Selection
-- **Overview**: Select tasks from the backlog to improve Amazon’s AI tool.
+
+- **Overview**: Choose products (tasks) from the backlog for the upcoming sprint.
 - **Steps**:
-  - Review tasks (e.g., "Collect Diverse Data", "Implement SHAP Explainability"):
-    - **Story Points**: Effort (e.g., 5-15 points).
-    - **Skills**: Required expertise (e.g., data, AI, ethics).
-  - Note **Carried Over Tasks** (mandatory from prior sprints).
-  - Click "Select" to add (min 3, max 8 tasks).
-  - View in "Selected Products"; deselect with "Select" (except carried-over).
-  - Click "Back to Team" or "Continue to Task Assignment".
+  1. Review available products (e.g., "User Authentication", "Landing Page").
+     - **Story Points**: Effort required (higher = harder).
+     - **Skills**: Required expertise (e.g., frontend, backend).
+  2. Note any **Carried Over Tasks** from the previous sprint—they’re mandatory.
+  3. Click **"Select"** to add a product to your sprint (up to 8 total, minimum 3 including carried-over tasks).
+  4. See selected products in the "Selected Products" section. Click **"Select"** again to deselect (except carried-over tasks).
+  5. Click **"Back to Team"** to adjust your team, or **"Continue to Task Assignment"** when ready.
 - **Tips**:
-  - Match tasks to team skills.
-  - Avoid overloading—keep total points within team capacity.
+  - Match products to your team’s skills.
+  - Avoid overloading—select tasks your team can realistically complete.
 
 ### 4. Task Assignment
-- **Overview**: Assign tasks to team members based on skills and capacity.
+
+- **Overview**: Assign selected products to team members based on their skills and capacity.
 - **Steps**:
-  - See team capacity (e.g., 10 points remaining).
-  - Drag tasks from "Unassigned Tasks" to team members or use dropdowns.
-  - Click "Assign" to confirm.
-  - Multiple team members can collaborate on one task.
-  - Click "Continue to Sprint Strategy" when done.
+  1. See your team and their remaining capacity (story points they can handle).
+  2. Drag products from "Unassigned Tasks" to team members, or use the dropdown to assign points.
+  3. Confirm the task assignment by clicking **"Assign"** near the story point.
+  4. You can assign more than one team member to work on a single task.
+  5. Ensure skills align (e.g., don’t assign a backend task to a designer).
+  6. Click **"Continue to Sprint Strategy"** when all tasks are assigned or you’re ready to proceed.
 - **Tips**:
-  - Align skills (e.g., ethics tasks to Ethics Specialist).
-  - Leave buffer capacity for unexpected events.
+  - Distribute workload evenly to avoid overburdening anyone.
+  - Leave some capacity unassigned if you anticipate challenges.
 
 ### 5. Sprint Strategy
-- **Overview**: Choose strategies inspired by the PDCA framework.
+
+- **Overview**: Choose strategies to guide your team’s approach during the sprint.
 - **Steps**:
-  - Options (e.g., "Plan: Bias Audit", "Do: Human Oversight"):
-    - **Effect**: Impacts speed, quality, or morale (e.g., "Check: Regular Audits" slows progress but boosts quality).
-  - Select up to 2 strategies.
-  - Click "Start Sprint".
+  1. Review options (e.g., "Focus on Quality", "Optional Overtime").
+     - **Effect**: Impacts speed, quality, or morale (e.g., "Focus on Speed" increases points but risks bugs).
+  2. Select up to 2 strategies by clicking them.
+  3. Click **"Start Sprint"** to begin.
 - **Tips**:
-  - "Focus on Quality" reduces bias but slows delivery.
-  - "Optional Overtime" increases output but risks morale.
+  - "Focus on Quality" reduces defects but slows progress.
+  - "Optional Overtime" boosts output but lowers morale—use sparingly.
 
 ### 6. Sprint
-- **Overview**: Simulate a 14-day sprint, tracking progress and handling ethical challenges.
+
+- **Overview**: Simulate a 14-day sprint (adjustable later), tracking task progress and handling events.
 - **Steps**:
-  - Watch Kanban board (Backlog → In Progress → Testing → Done).
-  - Drag tasks to "In Progress" to start.
-  - Respond to events (e.g., "Gender Bias Detected"):
-    - Choose options (e.g., "Retrain Model" or "Ignore").
-  - Monitor progress, defects (bias/privacy issues), and morale.
-  - Proceed to Definition of Done or Retrospective.
+  1. Watch the Kanban board (Backlog → In Progress → Testing → Done) as tasks advance daily.
+  2. Drag tasks from **"Backlog"** to **"In Progress"** to start working on them.
+  3. Respond to random events (e.g., "Team Member Sick"):
+     - Read the description and options.
+     - Click an option (e.g., "Redistribute Tasks") to proceed.
+  4. Monitor progress bars, defects, and team morale.
+  5. At the end, proceed to the next phase (Definition of Done or Retrospective).
 - **Tips**:
-  - Fix defects in Testing to avoid rework.
-  - Balance event responses to maintain morale and ethics.
+  - Check defects in the Testing stage—tasks may need rework.
+  - Events can disrupt plans; choose options that balance morale and progress.
 
 ### 7. Definition of Done (After Sprint 1)
-- **Overview**: Set ethical and quality standards.
+
+- **Overview**: Set quality standards for task completion.
 - **Steps**:
-  - Options (e.g., "No bias >5%, GDPR compliant").
-  - Stricter rules improve ethics but slow progress.
-  - Click "Select" to apply.
+  1. Choose one option (e.g., "No more than one medium and two low-severity defects").
+     - **Effect**: Stricter rules slow progress but improve quality.
+  2. Click **"Select"** to apply it to future sprints.
 - **Tips**:
-  - Start with "Balanced" to avoid overwhelming the team.
+  - "Balanced" is a safe starting point.
+  - Adjust later if too many tasks fail to meet the standard.
 
 ### 8. Retrospective
-- **Overview**: Reflect and improve using PDCA’s "Act" phase.
+
+- **Overview**: Reflect on the sprint and make improvement decisions.
 - **Steps**:
-  - Feedback:
-    - **What Went Well**: (e.g., "Bias reduced").
-    - **What Could Be Improved**: (e.g., "Slow progress").
-    - **Action Items**: (e.g., "Train staff on SHAP").
-  - Answer questions (e.g., "Adjust sprint length?").
-  - Click "Continue to Sprint Summary".
+  1. Read team feedback in three sections:
+     - **What Went Well**: Successes (e.g., "High quality").
+     - **What Could Be Improved**: Challenges (e.g., "Too many defects").
+     - **Action Items**: Suggestions (e.g., "Better planning").
+  2. Answer questions (e.g., "Adjust sprint length?"):
+     - Click an option (e.g., "Increase to 3 weeks").
+  3. Click **"Continue to Sprint Summary"** when all decisions are made.
 - **Tips**:
-  - Extend sprints if tasks carry over.
-  - Hire specialists for skill gaps.
+  - Extend sprint length if tasks pile up.
+  - Hire specialists if skills are lacking.
 
 ### 9. Sprint Summary
-- **Overview**: Review sprint performance.
-- **Steps**:
-  - Stats:
-    - **Story Points**: Assigned vs. completed.
-    - **Quality**: Bias-free percentage.
-    - **Team Morale**: Happiness level.
-  - See feedback, completed tasks, and rework.
-  - Click "View Team" or "Plan Next Sprint" (or "Final Results" after Sprint 3).
-- **Tips**:
-  - High quality boosts scores—address bias early.
-  - Low morale penalizes—avoid overwork.
 
-### 10. Final Results (After 3 Sprints)
-- **Overview**: Evaluate overall success in enhancing AI safety.
+- **Overview**: Review your sprint’s performance.
 - **Steps**:
-  - Review:
-    - **Final Score**: Points × quality + morale bonus.
-    - **Total Story Points**: Across sprints.
-    - **Average Quality**: Ethical compliance.
-    - **Tasks Completed**: Number finished.
-  - Click "View Sprint Summary" or "Start New Game".
+  1. Check stats:
+     - **Story Points**: Assigned vs. completed.
+     - **Quality**: Percentage score.
+     - **Team Morale**: Team happiness.
+  2. Review sprint feedback, completed products, carried-over tasks, and rework.
+  3. Click **"View Team"** to adjust your roster, or **"Plan Next Sprint"** (or **"Final Results"** after Sprint 3).
 - **Tips**:
-  - Score >200 earns "Ethical AI Leader" rating.
+  - High quality boosts your score—fix defects early.
+  - Low morale hurts the final score—avoid overworking the team.
 
----
+### 10. Final Results (After Playing Three Sprints)
+
+- **Overview**: See your overall performance after three sprints.
+- **Steps**:
+  1. Review:
+     - **Final Score**: Combines points, quality, and morale.
+     - **Total Story Points**: Across all sprints.
+     - **Average Quality**: Overall product quality.
+     - **Products Completed**: Number of finished tasks.
+  2. Click **"View Sprint Summary"** to revisit details, or **"Start New Game"** to play again.
+- **Tips**:
+  - Aim for a score above 200 for a "Great job!" rating.
 
 ## Key Mechanics
 
-- **Budget**: $50,000 start. Hiring deducts; firing refunds.
-- **Story Points**: Task effort; completed points = value delivered.
-- **Task Stages**: Backlog → In Progress → Testing → Done.
-- **Defects**: Bias, privacy, or compliance issues; must meet Definition of Done.
-- **Team Morale**: Starts at 100%; drops with overtime, boosts with success.
-- **Scoring**: Sprint score = points × quality %. Final score adjusts for morale.
-
----
+- **Budget**: Starts at $50,000. Hiring reduces it; firing recovers costs.
+- **Story Points**: Measure task effort. Completed points contribute to your score.
+- **Task Stages**: Tasks progress from *Backlog → In Progress → Testing → Done*.
+- **Defects**: High, medium, or low severity. Must meet the Definition of Done to finish, or require rework.
+- **Team Morale**: Starts at 100%. Drops with overtime or poor results; boosts your final score if high.
+- **Scoring**: Sprint score = completed points × quality %. The final score includes a morale bonus/penalty.
 
 ## Tips for Success
 
-- **Team Balance**: Hire AI, data, and ethics experts; mix Junior and Senior levels.
-- **Task Selection**: Choose tasks matching team skills and capacity.
-- **Ethics Focus**: Use "Bias Audit" or "Human Oversight" to reduce defects.
-- **Morale Management**: Limit overtime to maintain happiness.
-- **Adapt**: Adjust strategies or team based on retrospective feedback.
-
----
+- **Team Balance**: Hire a mix of skills (frontend, backend, design) and levels (cost vs. capacity).
+- **Task Selection**: Pick tasks your team can handle within the sprint length.
+- **Quality Focus**: Use strategies like "Intensive Testing" to reduce defects early.
+- **Morale Management**: Avoid "Optional Overtime" unless desperate—it hurts long-term performance.
+- **Adapt**: Use retrospectives to adjust sprint length or team composition based on feedback.
 
 ## Troubleshooting
 
-- **Button Not Working?**: Check requirements (e.g., team hired, 3+ tasks selected).
-- **Game Stuck?**: Refresh the page.
-- **Slow Performance?**: Use a modern browser.
+- **Button Not Working?**: Ensure you’ve met requirements (e.g., hired a team, selected 3+ products).
+- **Game Stuck?**: Refresh the page to restart.
+- **Slow Performance?**: Use a modern browser for the best results.
 
 ---
+
+*Happy sprinting! Enjoy learning Scrum through this simulation.*
