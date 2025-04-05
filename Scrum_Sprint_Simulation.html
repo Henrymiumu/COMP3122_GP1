@@ -967,6 +967,11 @@
             renderPhase('intro');
         }
 
+        function reset_sprint_len() {
+            gameState.sprintLength = 14;
+            gameState.retrospectiveDecisions.sprintLength = 14;
+        }
+        
         // Render the current game phase
         function renderPhase(phase) {
             if (phase) {
@@ -3773,6 +3778,7 @@
                     question: `There were ${incompleteStoryPoints} incomplete story points. Should we adjust our sprint length?`,
                     options: [
                         { id: "keep-length", text: "Keep the current sprint length" },
+                        { id: "reset-length", text: "Reset to 2 weeks" },
                         { id: "increase-length", text: "Increase to 3 weeks" },
                         { id: "increase-length-more", text: "Increase to 4 weeks" }
                     ]
@@ -4110,8 +4116,10 @@
                 } else if (decisionId === 'increase-length-more') {
                     gameState.sprintLength = 28;
                     gameState.retrospectiveDecisions.sprintLength = 28;
+                } else if (decisionId === 'reset-length') {
+                    gameState.sprintLength = 14;
+                    gameState.retrospectiveDecisions.sprintLength = 14;
                 }
-                
                 // Other decision effects would be implemented here
             }
             
@@ -4719,6 +4727,7 @@
         // Initialize the game
         initializeGame();
         initializeEventListeners();
+        reset_sprint_len();
     </script>
 </body>
 </html>
