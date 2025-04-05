@@ -1,3 +1,4 @@
+# Scrum Sprint Simulation User Manual
 ## Introduction
 
 Welcome to the **Scrum Sprint Simulation**! This interactive game lets you step into the role of a Scrum Master, managing a virtual software development team through three sprints. Your goal is to deliver maximum value (measured in *story points*) and number of products while maintaining high quality and team morale, all within a **$50,000 budget**. You’ll hire a team, select tasks, assign work, respond to challenges, and reflect on your performance to improve.
