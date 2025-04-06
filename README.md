@@ -118,7 +118,7 @@ This manual will guide you through each game phase, explain key mechanics, and o
      - **What Went Well**: Successes (e.g., "High quality").
      - **What Could Be Improved**: Challenges (e.g., "Too many defects").
      - **Action Items**: Suggestions (e.g., "Better planning").
-  2. Answer questions (e.g., "Adjust sprint length?"):
+  2. Decide improvements for the team (e.g., "Adjust sprint length?"):
      - Click an option (e.g., "Increase to 3 weeks").
   3. Click **"Continue to Sprint Summary"** when all decisions are made.
 - **Tips**:
